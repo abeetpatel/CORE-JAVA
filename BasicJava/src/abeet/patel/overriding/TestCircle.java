@@ -1,16 +1,13 @@
-package abeet.patel.inheritance;
+package abeet.patel.overriding;
 
 public class TestCircle {
 	
 	public static void main(String[] args) {
 		
-		Circle c = new Circle();
-		
-		c.setRadius(5);
-		
+		Shape c = new Circle(5);
 		
 		System.out.println(c.area());
-			
+		
 	}
 
 }

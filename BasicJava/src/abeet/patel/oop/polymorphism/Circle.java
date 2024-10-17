@@ -1,10 +1,13 @@
-package abeet.patel.inheritance;
+package abeet.patel.oop.polymorphism;
 
-public class Circle  {
+public class Circle extends Shape{
 	
 	private int radius;
 	
-	
+	public Circle(int r) {
+		this.radius = r;
+	}
+
 	public int getRadius() {
 		return radius;
 	}
@@ -13,12 +16,10 @@ public class Circle  {
 		this.radius = radius;
 	}
 	
-	public double area () {
+	@Override
+	public double area() {
 		double area = Math.PI * radius * radius;
 		return area;
 	}
-	
-	
-	}
 
-
+}

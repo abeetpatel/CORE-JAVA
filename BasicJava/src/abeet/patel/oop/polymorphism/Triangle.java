@@ -1,10 +1,11 @@
-package com.rays.javaoop;
+package abeet.patel.oop.polymorphism;
 
 public class Triangle extends Shape {
-
+	
 	private int base;
+	
 	private int hight;
-
+	
 	public Triangle(int b, int h) {
 		this.base = b;
 		this.hight = h;
@@ -25,7 +26,7 @@ public class Triangle extends Shape {
 	public void setHight(int hight) {
 		this.hight = hight;
 	}
-
+	
 	@Override
 	public double area() {
 		double area = (base * hight) / 2;

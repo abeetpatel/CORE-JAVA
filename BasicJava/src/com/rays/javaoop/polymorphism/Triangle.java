@@ -1,13 +1,19 @@
-package com.rays.javaoop;
+package com.rays.javaoop.polymorphism;
 
 public class Triangle extends Shape {
 
 	private int base;
 	private int hight;
 
+	public Triangle() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public Triangle(int b, int h) {
+
 		this.base = b;
 		this.hight = h;
+
 	}
 
 	public int getBase() {
@@ -28,7 +34,7 @@ public class Triangle extends Shape {
 
 	@Override
 	public double area() {
-		double area = (base * hight) / 2;
+		double area =   (base * hight) / 2;
 		return area;
 	}
 
