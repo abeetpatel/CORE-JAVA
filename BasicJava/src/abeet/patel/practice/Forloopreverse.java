@@ -4,9 +4,9 @@ public class Forloopreverse {
 	
 	public static void main(String[] args) {
 		
-		for ( int a = 10; a >= 0; a --) {
+		for (int a = 10; a >= 1; a--) {
 			
-			System.out.println(a+ " Ram ");
+			System.out.println(a+"  RAM");
 			
 		}
 		

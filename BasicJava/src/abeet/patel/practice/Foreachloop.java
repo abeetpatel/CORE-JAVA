@@ -6,14 +6,13 @@ public class Foreachloop {
 		
 		int i[] = {1,2,3,4,5,6,7,8,9};
 		
-		System.out.println(i[0]+" "+i[5]+" "+i[3]);
+		System.out.println(i[0]+"  "+i[1]);
 		
-		for( int a : i) {
+		for ( int a : i) {
 			
 			System.out.println(a);
 			
 		}
 		
 	}
-
 }

@@ -6,12 +6,12 @@ public class Whileloopreverse {
 		
 		int a = 10;
 		
-		while ( a >= 0) {
+		while( a >= 1) {
 			
-			System.out.println(a+ " Ram ");
+			System.out.println(a+"  RAM");
 			
 			a--;
-				
+			
 		}
 		
 	}

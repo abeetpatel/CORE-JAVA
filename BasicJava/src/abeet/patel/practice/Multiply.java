@@ -4,9 +4,9 @@ public class Multiply {
 	
 	public static void main(String[] args) {
 		
-		int a = 12;
+		int a = 4;
 		
-		int b = 23;
+		int b = 5;
 		
 		int c = a * b ;
 		

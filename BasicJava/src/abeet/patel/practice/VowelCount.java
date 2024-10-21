@@ -1,4 +1,4 @@
-package abeet.patel.practice;
+ package abeet.patel.practice;
 
 public class VowelCount {
 	

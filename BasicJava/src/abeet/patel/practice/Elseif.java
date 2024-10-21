@@ -4,32 +4,35 @@ public class Elseif {
 	
 	public static void main(String[] args) {
 		
-		String ID = "Abeet Patel";
+		String ID = "abeet";
 		
-		String Password = "123";
+		String pass = "123";
 		
-		if ( ID == null && Password == null) {
+		if(  ID == null &&  pass == null) {
 			
-			System.out.println(" ID and Password is empty ");
-							
-			}else if ( ID != "Abeet Patel" && Password == "123") {
-				
-				System.out.println(" ID is incorrect");
+			System.out.println( "ID and pass both are empty");
 			
-		}else if ( ID == "Abeet Patel" && Password != "123") {
+		}else if ( ID != "abeet" && pass == "123") {
 			
-			System.out.println(" Password is incorrect");
+			System.out.println("ID is incorrect");
 			
-		}else if ( ID != "Abeet Patel" && Password != "123") {
+		}else if ( ID == "abeet" && pass != "123") {
 			
-			System.out.println( " ID & Password both are incorrect ");
+			System.out.println("pass is incorrect");
 			
-		}else {
+		}else if ( ID != "abeet" && pass != "123") {
 			
-			System.out.println(" Login Process is done ");
+			System.out.println(" ID and pass both are incorrect");
+			
+		}
+		
+		else {
+			
+			System.out.println(" login process is done");
 			
 		}
 		
 	}
-
+	
 }
+

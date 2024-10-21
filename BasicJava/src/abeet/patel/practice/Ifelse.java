@@ -4,15 +4,15 @@ public class Ifelse {
 	
 	public static void main(String[] args) {
 		
-		int price = 150;
+		int amount = 150;
 		
-		if( price <= 100 ) {
+		if ( amount >= 100) {
 			
-			System.out.println(" i can buy this pizza ");
+			System.out.println(" I Can't buy this pizza.");
 			
 		}else {
 			
-			System.out.println(" i can not buy this pizza ");
+			System.out.println(" I can buy this pizza..");
 			
 		}
 		

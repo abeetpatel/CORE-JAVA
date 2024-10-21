@@ -8,4 +8,26 @@ public class Shape {
 
 	}
 
+	public static Shape getShape(int i) {
+
+		if (i == 1) {
+
+			return new Circle();
+
+		}
+		if (i == 2) {
+
+			return new Rectangle();
+
+		}
+		if (i == 3) {
+
+			return new Triangle();
+
+		}
+
+		return new Shape();
+
+	}
+
 }

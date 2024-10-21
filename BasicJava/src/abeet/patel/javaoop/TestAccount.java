@@ -18,7 +18,7 @@ public class TestAccount {
 		
 		System.out.println("Account balance after deposite = "+a.getBalance());
 		
-		a.withdrawal(50);
+		a.withdrawal(800);
 		
 		System.out.println("Account balance after withdrawal = "+a.getBalance());
 		

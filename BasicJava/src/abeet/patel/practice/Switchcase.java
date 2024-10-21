@@ -4,23 +4,23 @@ public class Switchcase {
 	
 	public static void main(String[] args) {
 		
-		String month = "Mar";
+		String month = "feb";
 		
-		switch(month) {
+		switch ( month) {
 		
-		case "Jan":
+		case "jan" :
 			
 			System.out.println("this is first month");
 			
 			break;
-			
-		case "Feb":
+		
+		case "feb" :
 			
 			System.out.println("this is second month");
 			
 			break;
 			
-		case "Mar":
+		case "mar" :
 			
 			System.out.println("this is third month");
 			
@@ -35,5 +35,4 @@ public class Switchcase {
 		}
 		
 	}
-
 }

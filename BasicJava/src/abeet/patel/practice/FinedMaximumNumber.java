@@ -4,20 +4,20 @@ public class FinedMaximumNumber {
 	
 	public static void main(String[] args) {
 		
-	int a = 45;
-	
-	int b = 25;
-	
-	if ( a > b) {
+		int a = 5;
 		
-		System.out.println(" maximum number = "+a);
+		int b = 6;
 		
-	}else {
-		
-		System.out.println(" maximum number = "+b);
+		if ( a > b) {
+			
+			System.out.println("maximum no . = "+a);
+			
+		}else {
+			
+			System.out.println("maximum no . = "+b);
+			
+		}
 		
 	}
-	
-}
 
 }

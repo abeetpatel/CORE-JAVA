@@ -8,9 +8,9 @@ public class Dowhileloop {
 		
 		do {
 			
-			System.out.println(a+ " Ram");
+			System.out.println(a+"  Ram");
 			
-		}while( a != 1);
+		}while ( a != 1);
 		
 		a++;
 		

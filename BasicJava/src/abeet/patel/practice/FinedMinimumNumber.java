@@ -4,17 +4,17 @@ public class FinedMinimumNumber {
 	
 	public static void main(String[] args) {
 		
-		int a = 48;
+		int a = 8;
 		
-		int b = 16;
+		int b = 6;
 		
-		if ( a < b ) {
+		if ( a < b) {
 			
-			System.out.println(" minimum number = "+a);
+			System.out.println(" minimum no. = "+a);
 			
 		}else {
 			
-			System.out.println(" minimum number = "+b);
+			System.out.println(" minimum no. = "+b);
 			
 		}
 		

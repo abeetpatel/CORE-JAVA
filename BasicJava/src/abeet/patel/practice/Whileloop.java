@@ -6,14 +6,13 @@ public class Whileloop {
 		
 		int a = 1;
 		
-		while( a <= 10) {
+		while ( a <= 10) {
 			
-			System.out.println(a+ " Ram ");
+			System.out.println(a+ "  RAM");
 			
 			a++;
 			
 		}
 		
 	}
-
 }

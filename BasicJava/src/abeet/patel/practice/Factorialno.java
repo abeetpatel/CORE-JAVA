@@ -8,14 +8,12 @@ public class Factorialno {
 		
 		int fact = 1;
 		
-		for (int i = 1; i <= num ; i++) {
+		for (int i = 1; i < num; i++) {
 			
 			fact = fact * i;
 			
-		}
-		
-		System.out.println(" Factorial no. = "+fact);
+		}System.out.println("factorial of the no . = "+fact);
 		
 	}
-
+	
 }
