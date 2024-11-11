@@ -6,7 +6,7 @@ public class TypeOfException {
 
 		// Test NumberFormateException
 		String a = "Ans58ul";
-
+			
 		try {
 
 			int i = Integer.parseInt(a);

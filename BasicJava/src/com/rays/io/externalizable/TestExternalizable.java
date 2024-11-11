@@ -26,6 +26,7 @@ public class TestExternalizable {
 		System.out.println(e);
 
 		in.close();
+		
 	}
 
 }

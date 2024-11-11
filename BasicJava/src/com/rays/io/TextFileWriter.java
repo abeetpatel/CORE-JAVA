@@ -6,7 +6,7 @@ public class TextFileWriter {
 
 	public static void main(String[] args) throws Exception {
 
-		FileWriter fw = new FileWriter("D://IO//Abeet.txt", true);
+		FileWriter fw = new FileWriter("D://IO//Abeet.txt",true);
 
 		char[] ch = { 'h', 'i' };
 

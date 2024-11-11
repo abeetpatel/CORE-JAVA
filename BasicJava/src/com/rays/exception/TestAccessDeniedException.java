@@ -6,6 +6,8 @@ public class TestAccessDeniedException {
 		
 		String username = "abeet";
 		
+		if ( username != "abeet") {
+		
 		try {
 		
 		throw new AccessDeniedException("Access Denied");
@@ -15,7 +17,11 @@ public class TestAccessDeniedException {
 			System.out.println(e.getMessage());
 			
 		}
-		
+		}else {
+			
+			System.out.println("Access granted");
+			
+		}
 		
 	}
 

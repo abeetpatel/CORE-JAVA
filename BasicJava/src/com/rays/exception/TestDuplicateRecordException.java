@@ -18,8 +18,6 @@ public class TestDuplicateRecordException {
 				
 			} catch (DuplicateRecordException e) {
 				
-				e.printStackTrace();
-				
 				System.out.println(e.getMessage());
 				
 			}
